@@ -1,26 +1,32 @@
+
 .articles-container{
+
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
     background-color: #ffffff;
 }
 
 .article-1, .article-2, .article-3, .article-4{
+    
     display: flex;
     flex-direction: column;
-    
+    padding: 30px 3px 20px 3px;
 }
 
 /* Make the sizes of all four article images with that height and width */
 .article-1,.article-2,.article-3, .article-4 img{
+
     height: 200px;
     width: 300px;
     
 }
 
+
 h3 {
     width: 225px;
     padding: 0px 20px;
     font-family: Muli, sans-serif;
+    padding: 0 30px;
 }
 
