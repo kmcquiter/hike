@@ -30,3 +30,111 @@ h3 {
     padding: 0 30px;
 }
 
+
+/* Hike Project Notes
+
+Color Palette:
+gray #333a35
+orange #eca419
+white
+
+Font (from Google Fonts):
+Muli
+
+Icons (from FontAwesome):
+fa-instagram, fa-facebook, fa-pinterest, fa-search
+*/
+
+body {
+    background-color:#333a35;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px 0 0;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: auto;
+    height: 480px;
+    margin: 0;
+    padding: 0;
+}
+
+a#features:link, a#features:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a#features:hover, a#features:active {
+    color: #eca419;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.features-left {
+    background-image: url("../images/desert780x477.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 65%;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.desert {
+    border-bottom: 2px solid #eca419;
+    height: 100%;
+    text-align: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    width: 95%;
+    padding: 40px;
+    margin: 59px 40px;
+}
+
+.features-right {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    font-size: x-large;
+}
+
+.stream {
+    background-image: url("../images/stream420x240.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50%;
+    margin: 0;
+    padding: 22px 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wilderness {
+    background-image: url("../images/relax420x237.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50%;
+    margin: 0;
+    padding: 22px 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
